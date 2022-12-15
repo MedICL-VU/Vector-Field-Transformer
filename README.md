@@ -1,4 +1,4 @@
-# Vector-Field-Transformer
+# Vector Field Transformer
 ### [Medical Image Analysis 2023] Domain Generalization for Retinal Vessel Segmentation via Hessian-based Vector Field 
 ---
 ### Introduction
@@ -6,5 +6,10 @@ Blessed by the vast amount of data, the learning-based methods have achieved rem
 >- **data augmentation:** A full-resolution variational auto-encoder (f-VAE) network that generates synthetic latent images
 >- **domain alignment:** A Hessian-based vector field that serves as an aligned image space that delineates the morphology of vessels
 >- **model architecture:** A novel paralleled transformer blocks that helps to learn local features in different scales
+
+The overall pipeline of the work is shown as following:
+<p align="center">
+  <img src="/assets/pipeline.png" alt="drawing" width="500"/>
+</p>
 
 ### Data augmentation
