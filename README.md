@@ -23,4 +23,7 @@ The supervision is provided by the binary vessel map. Since there is no direct c
   <img src="/assets/aug_results.png" alt="drawing" width="700"/>
 </p>
 
-The code for the synthetic model is accessible [here](https://github.com/MedICL-VU/Vector-Field-Transformer/tree/main/src/augmentation)  
+> The code for the synthetic model is accessible [augment code](https://github.com/MedICL-VU/Vector-Field-Transformer/tree/main/src/augmentation)  
+> The trained model is available at [augment model](https://github.com/MedICL-VU/Vector-Field-Transformer/tree/main/models)
+
+### Domain alignment
