@@ -13,3 +13,14 @@ The overall pipeline of the work is shown as following:
 </p>
 
 ### Data augmentation
+We implement a full resolution variational auto-encoder (f-VAE) in which the latent space is set to have the same width and height with the input image. The architecture is illustrated by the image below:
+<p align="center">
+  <img src="/assets/augment_network.png" alt="drawing" width="250"/>
+</p>
+
+The supervision is provided by the binary vessel map. Since there is no direct constraint on the latent representation, we observe that each time we re-train the f-VAE will result in latent images with different styles while the anatomical structure remains unchanged. The <ins>augment-2</ins>, <ins>augment-3</ins> and <ins>augment-4</ins> are the three synthesized versions while augment-1 is the CLAHE version (intensty inversed) of the raw input.
+<p align="center">
+  <img src="/assets/aug_results.png" alt="drawing" width="700"/>
+</p>
+
+The code for the synthetic model is accessible [here](https://github.com/MedICL-VU/Vector-Field-Transformer/tree/main/src/augmentation)  
