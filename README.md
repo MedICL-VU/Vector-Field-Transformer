@@ -1,7 +1,9 @@
 ![](https://img.shields.io/badge/Language-python-brightgreen.svg)
 # Vector Field Transformer
-### [Medical Image Analysis 2023] Domain Generalization for Retinal Vessel Segmentation via Hessian-based Vector Field 
+### [MIDL 2022, MIA 2023] Domain Generalization for Retinal Vessel Segmentation via Hessian-based Vector Field 
 ---
+- [x] The paper is available [here](https://openreview.net/pdf?id=mB_V8ThxY8Z)
+
 ### Introduction
 Blessed by the vast amount of data, the learning-based methods have achieved remarkable performance in almost all tasks in computer vision and medical image analysis. Although these deep models can simulate highly nonlinear mapping functions, they are not robust with regard to domain shift of input data. This is one of the major concerns that impedes the large scale deployment of deep models in medical images since they have inherent variation in data distribution due to lack of imaging standardization. Therefore, a domain generalization (DG) method is needed to alleviate this problem. In this work, our main contributions are in three folds:
 >- **data augmentation:** A full-resolution variational auto-encoder (f-VAE) network that generates synthetic latent images
@@ -28,3 +30,14 @@ The supervision is provided by the binary vessel map. Since there is no direct c
 > The trained model is available at [augment model](https://github.com/MedICL-VU/Vector-Field-Transformer/tree/main/models)
 
 ### Domain alignment
+
+
+Please cite our work:
+```
+  @inproceedings{hu2021domain,
+  title={Domain Generalization for Retinal Vessel Segmentation with Vector Field Transformer},
+  author={Hu, Dewei and Li, Hao and Liu, Han and Oguz, Ipek},
+  booktitle={Medical Imaging with Deep Learning},
+  year={2021}
+}
+```
